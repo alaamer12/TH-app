@@ -1,0 +1,26 @@
+to install expo u can see the documentation this is what i used
+expo whoami show if are logged or no
+expo login make ur loggin
+ahmedmuhmmed239@gmail.com
+Amr@2013
+
+to start server u can 
+npm start [global]
+npx expo start [local]
+expo start [global]
+[global] is recommended
+
+expo cant no loner build an app 
+they use eas instead and u have ofc to install it
+
+to build ur app 
+u use this `eas build production --platform android`
+or this `eas build --profile production --platform android`
+
+first one asks u while building while secound one takes information directly form eas.json
+
+eas.json has the data of ur app and it is by defualt making ur app wih extension .aab
+but i modified the eas.json to make make .apk and i succeeded in both
+
+furehter thing before finishing ur app it asks u for if u want it for emulator or not and i recommend to u `n` but i dont know what is the difference
+of the two apps 
